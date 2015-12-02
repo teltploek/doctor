@@ -1,0 +1,52 @@
+{
+  "name": "pentia-doctor",
+  "version": "1.0.0",
+  "description": "Detect potential issues with users system that could prevent Pentia Build system from working correctly",
+  "license": "BSD-2-Clause",
+  "author": "Pentia",
+  "repository": "PentiaLabs/doctor",
+  "main": "lib/index.js",
+  "bin": {
+    "ptdoctor": "lib/cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha test/** -R spec"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "doctor",
+    "system",
+    "health",
+    "report",
+    "check"
+  ],
+  "dependencies": {
+    "bin-version-check": "^2.1.0",
+    "chalk": "^1.0.0",
+    "each-async": "^1.1.1",
+    "log-symbols": "^1.0.1",
+    "object-values": "^1.0.0",
+    "semver": "^5.0.3",
+    "twig": "^0.8.2",
+    "user-home": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.1",
+    "xo": "*"
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
