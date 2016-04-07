@@ -1,14 +1,12 @@
-# Pentia Doctor
+# node-gyp Doctor
 
-> Detect potential issues with users system that could prevent Pentia Build from working correctly
+> Detect potential issues with users system that could prevent node-gyp from working correctly
 
 ![](screenshot.png)
 
 ## Usage
 
-Will eventually be baked into [FrontendBuilder](https://github.com/PentiaLabs/FrontendBuilder):
-
-Until then it's in a state of development, and should be used in conjunction with [npm-link](https://docs.npmjs.com/cli/link)
+This is in a heavy state of development, and should be used in conjunction with [npm-link](https://docs.npmjs.com/cli/link)
 
 So do the following to test it out at this moment:
 
